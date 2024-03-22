@@ -149,3 +149,29 @@ h1 {
     border: 4px solid #ffd700;
     border-radius: 8px;
 }
+
+/* quote styles */
+
+.section.quote {
+    background-color: #990000;
+}
+
+.section.quote .content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 48px;
+}
+
+.section.quote #quote-real {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    text-align: center;
+}
+
+.section.quote #quote-santa {
+    font-size: 24px;
+    align-self: flex-end;
+    color: #000000;
+    font-weight: bolder;
+}
