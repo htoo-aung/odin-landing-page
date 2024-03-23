@@ -183,9 +183,10 @@ h1 {
     background-color: #b5651d;
     display: flex;
     justify-content: space-around;
-    padding: 24px 0px;
-    border: 4px solid #003366;
-    border-radius: 4px;
+    margin: 36px 0px;
+    padding: 48px 0;
+    border: 4px solid #b38f00;
+    border-radius: 8px;
 }
 
 .section.call-to-action .content .call-to-action-text {
@@ -195,4 +196,17 @@ h1 {
 
 .call-to-action-text p {
     margin: 2px;
+}
+
+/* footer styles */
+
+.section.footer {
+    background-color: #5C3317;
+}
+
+.section.footer .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
 }
