@@ -131,6 +131,7 @@ h1 {
 
 .preview-image {
     display: flex;
+    width: 285px;
     flex-flow: column wrap;
     flex-grow: 0;
 }
